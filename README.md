@@ -3,7 +3,7 @@ Adds RAP/VALUE stats to user profiles and shows trade values/net differences in 
 If It Dosn't Work Refresh A Couple Times And If That Doesn't Work Then Refresh Again.
 I'm Sorry If This Looks Ugly, I Made Just For The Functionality, And If Anyone Wants to Change Anything Or Fix Or Make It Better In Any Way Shape Or Form Do it, BUT CREDIT ME IF YOU CAN TWIN!!!
 
-
+WHEN RUNNING OTHER VERISIONS OF THIS CODE MODIFIED BY OTHER USERS MAKE SURE ITS SAFE AS IT MAY BE A VIRUS 
 
 ![image](https://github.com/user-attachments/assets/9655fc60-b746-466a-acf0-b081369bd1b6)
 
@@ -17,7 +17,8 @@ AFTER U INSTALLED IT JUST MAKE A NEW SCRIPT AND PAST EVERYTHING AND THEN REFRESH
 
 
 
-
+![image](https://github.com/user-attachments/assets/8e9576ea-77c1-4d13-9d90-8c5b34d90cb4)
+Make Sure You Allow Both For The Updates
 
 
 
