@@ -1,4 +1,4 @@
-# 🔍 ECSR Value+ Enhancer (Violentmonkey Script)
+# 🔍 ECSR Value+ Enhancer
 
 Enhance your **ECSR** experience with real-time value insights.
 
@@ -30,7 +30,7 @@ Enhance your **ECSR** experience with real-time value insights.
 
 ## 🛠️ Installation
 
-1. Install [Violentmonkey](https://violentmonkey.github.io/) for your browser
+1. Install [Violentmonkey](https://violentmonkey.github.io/) for your browser (or any alternatives)
 2. [Click here to install the script](https://raw.githubusercontent.com/AR-Z/RTB-ECSR/refs/heads/main/index.js) <!-- Link to your raw script -->
 3. Done! Visit any ECSR user, item, or trade page or item page to see it in action.
 
