@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         ECSR Trade Value Thing
+// @name         ECSR Trade Value & Net Calculator (Received - Gave)
 // @namespace    http://tampermonkey.net/
 // @version      1.6.1
-// @description  Adds RAP/VALUE stats to user profiles and shows trade values/net differences in trades
+// @description  Adds RAP/VALUE stats to user profiles and shows trade values/net differences in trade modals.
 // @match        https://ecsr.io/*
 // @grant        GM_xmlhttpRequest
 // @connect      ecomons.vercel.app
@@ -50,7 +50,7 @@
     }
 
     // =============== Profile Feature ===============
-    function isUserProfile() {
+      function isUserProfile() {
         return /^\/users\/\d+\/profile\/?$/.test(window.location.pathname);
     }
 
@@ -95,34 +95,32 @@
             }, 0);
 
             const statsRow = await waitFor('.col-12.col-lg-10.ps-0 .row');
-            if (statsRow) {
-                if (!document.getElementById('ecsrTradeCalc-rapStat')) {
-                    const rapElem = document.createElement('div');
-                    rapElem.id = 'ecsrTradeCalc-rapStat';
-                    rapElem.className = 'col-12 col-lg-2';
-                    rapElem.innerHTML = `
-                        <p class="ecsrTradeCalc-statHeader">RAP</p>
-                        <p class="ecsrTradeCalc-statValue">
-                            <a href="https://ecsr.io/internal/collectibles?userId=${userId}" style="color: inherit; text-decoration: none;">
-                                ${rapTotal}
-                            </a>
-                        </p>`;
-                    statsRow.appendChild(rapElem);
-                }
+            if (statsRow && !document.getElementById('rapStat')) {
+                const rapElem = document.createElement('div');
+                rapElem.id = 'rapStat';
+                rapElem.className = 'col-12 col-lg-2';
+                rapElem.innerHTML = `
+                    <p class="statHeader-0-2-59">RAP</p>
+                    <p class="statValue-0-2-60">
+                        <a href="https://ecsr.io/internal/collectibles?userId=${userId}" style="color: inherit; text-decoration: none;">
+                            ${rapTotal}
+                        </a>
+                    </p>`;
+                statsRow.appendChild(rapElem);
+            }
 
-                if (!document.getElementById('ecsrTradeCalc-valueStat')) {
-                    const valueElem = document.createElement('div');
-                    valueElem.id = 'ecsrTradeCalc-valueStat';
-                    valueElem.className = 'col-12 col-lg-2';
-                    valueElem.innerHTML = `
-                        <p class="ecsrTradeCalc-statHeader">VALUE</p>
-                        <p class="ecsrTradeCalc-statValue">
-                            <a href="https://ecomons.vercel.app/user/${userId}" style="color: inherit; text-decoration: none;">
-                                ${valueTotal}
-                            </a>
-                        </p>`;
-                    statsRow.appendChild(valueElem);
-                }
+            if (statsRow && !document.getElementById('valueStat')) {
+                const valueElem = document.createElement('div');
+                valueElem.id = 'valueStat';
+                valueElem.className = 'col-12 col-lg-2';
+                valueElem.innerHTML = `
+                    <p class="statHeader-0-2-59">VALUE</p>
+                    <p class="statValue-0-2-60">
+                        <a href="https://ecomons.vercel.app/user/${userId}" style="color: inherit; text-decoration: none;">
+                            ${valueTotal}
+                        </a>
+                    </p>`;
+                statsRow.appendChild(valueElem);
             }
 
         } catch (err) {
