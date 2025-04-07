@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         RTB ECSR
+// @name         ECSR Trade Value Thing
 // @namespace    http://tampermonkey.net/
 // @version      1.6.1
 // @description  Adds RAP/VALUE stats to user profiles and shows trade values/net differences in trades
