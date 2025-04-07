@@ -42,6 +42,14 @@ This script pulls item RAP and value data and injects it into key UI elements ac
 
 ---
 
+
+# ⚠️ Heads Up
+>If something doesn't show up, try refreshing the page, a quick refresh usually fixes it.
+>You're welcome to dig into the code and improve or customize it — contributions, forks, and tweaks are encouraged!
+
+
+---
+
 ## 🧾 License
 
 ```text                    GNU GENERAL PUBLIC LICENSE
@@ -720,10 +728,3 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 
 ```
----
-
-# ⚠️ Heads Up
->If something doesn't show up, try refreshing the page, a quick refresh usually fixes it.
->You're welcome to dig into the code and improve or customize it — contributions, forks, and tweaks are encouraged!
-
-
