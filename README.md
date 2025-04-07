@@ -24,6 +24,8 @@ AFTER U INSTALLED IT JUST MAKE A NEW SCRIPT AND PAST EVERYTHING AND THEN REFRESH
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
+![image](https://github.com/user-attachments/assets/0a406ed7-bad5-4f63-bf5a-ca5cd1430271)
+TO anyone not bothering to read all of this, this is what it means
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
  Everyone is permitted to copy and distribute verbatim copies
