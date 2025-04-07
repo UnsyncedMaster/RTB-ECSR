@@ -24,7 +24,7 @@ Enhance your **ECSR** experience with real-time value insights.
 - 📈 Adds **RAP (Recent Average Price)** and **Value** next to user profile
 - 🔄 Displays **total trade value** and **net gain/loss** in trades
 - 🧠 Shows **item value** on the item detail pages
-- ⚡ Fast, clean, and built for convenience
+- ⚡ Fast, clean, and built for functionality
 
 ---
 
@@ -66,3 +66,9 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/>.
+```
+# ⚠️ Heads Up
+>If something doesn't show up, try refreshing the page, a quick refresh usually fixes it.
+>You're welcome to dig into the code and improve or customize it — contributions, forks, and tweaks are encouraged!
+
+
