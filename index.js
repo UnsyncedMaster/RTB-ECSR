@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         ECSR Trade Value Thing
+// @name         RTB ECSR
 // @namespace    http://tampermonkey.net/
 // @version      1.6.1
 // @description  Adds RAP/VALUE stats to user profiles and shows trade values/net differences in trades
@@ -7,6 +7,8 @@
 // @grant        GM_xmlhttpRequest
 // @connect      ecomons.vercel.app
 // @connect      ecsr.io
+// @updateURL    https://raw.githubusercontent.com/AR-Z/RTB-ECSR/main/index.js
+// @downloadURL  https://raw.githubusercontent.com/AR-Z/RTB-ECSR/main/index.js
 // ==/UserScript==
 
 (function () {
