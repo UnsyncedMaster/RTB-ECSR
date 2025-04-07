@@ -5,6 +5,7 @@ I'm Sorry If This Looks Ugly, I Made Just For The Functionality, And If Anyone W
 
 
 
+![image](https://github.com/user-attachments/assets/9655fc60-b746-466a-acf0-b081369bd1b6)
 
 
 TO USE THIS U NEED VIOLENTMONKEY BROWSER EXTENSION OR ANY OTHER ALTERNATIVES!!!!
@@ -12,7 +13,7 @@ AFTER U INSTALLED IT JUST MAKE A NEW SCRIPT AND PAST EVERYTHING AND THEN REFRESH
 
 
 
-
+![image](https://github.com/user-attachments/assets/1b5415ba-cd29-4a4b-9763-7da7fa143730)
 
 
 
