@@ -1,31 +1,59 @@
-# RTB-ECSR
-Adds RAP/VALUE stats to user profiles and shows trade values/net differences in trades
-If It Dosn't Work Refresh A Couple Times And If That Doesn't Work Then Refresh Again.
-I'm Sorry If This Looks Ugly, I Made Just For The Functionality, And If Anyone Wants to Change Anything Or Fix Or Make It Better In Any Way Shape Or Form Do it, BUT CREDIT ME IF YOU CAN TWIN!!!
+# 🔍 ECSR Value+ Enhancer
+
+Enhance your **ECSR** experience with real-time value insights.
+
+> 🎯 Adds **RAP**/**Value** stats to user profiles  
+> 🔁 Displays trade values and **net differences**  
+> 💰 Shows item values on item pages  
+
+---
+
+## 📸 Screenshots
+
+<!-- Add your images here -->
+<!-- Example: -->
+![User Profile with RAP/Value](https://github.com/user-attachments/assets/86bf4f2c-9f90-4cd9-b0e0-5ba21d0feb40)
+![Trade Window with Net Difference](https://github.com/user-attachments/assets/8cd4c66d-34c1-4a33-a4f6-96a214081b33)
+![Item Page with Value](https://github.com/user-attachments/assets/98519208-930d-4267-bffb-844706f29f29)
 
 
+---
 
-![image](https://github.com/user-attachments/assets/9655fc60-b746-466a-acf0-b081369bd1b6)
+## ✨ Features
+
+- 📈 Adds **RAP (Recent Average Price)** and **Value** next to user profile
+- 🔄 Displays **total trade value** and **net gain/loss** in trades
+- 🧠 Shows **item value** on the item detail pages
+- ⚡ Fast, clean, and built for functionality
+
+---
+
+## 🛠️ Installation
+
+1. Install [Violentmonkey](https://violentmonkey.github.io/) for your browser (or any alternatives)
+2. [Click here to install the script](https://raw.githubusercontent.com/AR-Z/RTB-ECSR/refs/heads/main/index.js) <!-- Link to your raw script -->
+3. Done! Visit any ECSR user, item, or trade page or item page to see it in action.
+
+---
+
+## 🚀 How It Works
+
+This script pulls item RAP and value data and injects it into key UI elements across the ECSR site. Trade interfaces are enhanced with real-time calculations showing the total value of each side and the difference — so you always know if a trade is a win or loss.
+
+---
 
 
-TO USE THIS U NEED VIOLENTMONKEY BROWSER EXTENSION OR ANY OTHER ALTERNATIVES!!!!
-AFTER U INSTALLED IT JUST MAKE A NEW SCRIPT AND PAST EVERYTHING AND THEN REFRESH ECSR
+# ⚠️ Heads Up
+>If something doesn't show up, try refreshing the page, a quick refresh usually fixes it.
+>You're welcome to dig into the code and improve or customize it — contributions, forks, and tweaks are encouraged!
 
 
+---
 
-![image](https://github.com/user-attachments/assets/1b5415ba-cd29-4a4b-9763-7da7fa143730)
+## 🧾 License
 
-
-
-
-
-
-
-
-                    GNU GENERAL PUBLIC LICENSE
+```text                    GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
-![image](https://github.com/user-attachments/assets/0a406ed7-bad5-4f63-bf5a-ca5cd1430271)
-TO anyone not bothering to read all of this, this is what it means
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
  Everyone is permitted to copy and distribute verbatim copies
@@ -698,3 +726,5 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+```
