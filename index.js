@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name         ECSR Trade Value Thing with Donation Badge
-// @namespace    https://your-namespace-here
+// @name         RTB ECSR
+// @namespace    ARZ
 // @version      1.6.4-fixed-csp
 // @description  Adds RAP/VALUE stats to user profiles, shows trade values/net differences in trades, and adds a donation badge if the user owns a donation shirt.
 // @match        https://ecsr.io/*
 // @grant        GM_xmlhttpRequest
 // @connect      ecomons.vercel.app
 // @connect      ecsr.io
+// @icon         https://www.strrev.com/img/logo_R.svg
 // ==/UserScript==
 
 (function () {
