@@ -110,7 +110,7 @@
 
     // Donation badge check function (polls directly for the icon span)
     function checkDonationBadge(userId) {
-        const donationShirtId = 28548; // Donation shirt ID
+        const donationShirtId = 28553; // Donation shirt ID
         const url = `https://ecsr.io/users/inventory/list-json?userId=${userId}&assetTypeId=11&cursor=&itemsPerPage=24`;
         console.log(`[ECSR] checkDonationBadge: Fetching inventory from ${url}`);
         GM_xmlhttpRequest({
