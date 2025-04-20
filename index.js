@@ -1,14 +1,18 @@
 // ==UserScript==
 // @name         RTB ECSR
-// @namespace    ARZ
-// @version      1.6.4-fixed-csp
-// @description  Adds RAP/VALUE stats to user profiles, shows trade values/net differences in trades, and adds a donation badge if the user owns a donation shirt.
+// @namespace    http://tampermonkey.net/
+// @version      1.6.4
+// @description  Adds RAP/VALUE stats to user profiles and shows trade values/net differences in trades
 // @match        https://ecsr.io/*
 // @grant        GM_xmlhttpRequest
 // @connect      ecomons.vercel.app
 // @connect      ecsr.io
+// @updateURL    https://raw.githubusercontent.com/AR-Z/RTB-ECSR/main/index.js
+// @downloadURL  https://raw.githubusercontent.com/AR-Z/RTB-ECSR/main/index.js
 // @icon         https://ecsr.io/favicon.ico
 // ==/UserScript==
+
+
 
 (function () {
     'use strict';
