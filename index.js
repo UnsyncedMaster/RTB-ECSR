@@ -7,7 +7,7 @@
 // @grant        GM_xmlhttpRequest
 // @connect      ecomons.vercel.app
 // @connect      ecsr.io
-// @icon         https://www.strrev.com/img/logo_R.svg
+// @icon         https://ecsr.io/favicon.ico
 // ==/UserScript==
 
 (function () {
