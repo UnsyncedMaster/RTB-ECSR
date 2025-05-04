@@ -258,7 +258,7 @@
         rapP.parentNode.insertBefore(p, rapP.nextSibling);
     }
 
-    // --- Observers & Init ---
+
     const TRADE_MODAL_SELECTOR = '.modalWrapper-0-2-74';
     function observeTradeModals() {
         const obs = new MutationObserver(muts => {
@@ -297,7 +297,7 @@
     observeTradeModals();
     initFeatures();
 
-    // --- Injection: RTB ECSR button using correct selectors ---
+    // --- Injection: RTB ECSR button  ---
     function addRtbButton(origBtn) {
         // Only if not already added
         if (origBtn.parentNode.querySelector('.rtbEcsrButton')) return;
