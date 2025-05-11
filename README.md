@@ -12,7 +12,8 @@ Enhance your **ECSR** experience with real-time value insights.
 
 <!-- Add your images here -->
 <!-- Example: -->
-![User Profile with RAP/Value](https://github.com/user-attachments/assets/86bf4f2c-9f90-4cd9-b0e0-5ba21d0feb40)
+![User Profile with RAP/Value](https://github.com/user-attachments/assets/9cb12709-6287-49db-b1a0-f9b9c875bc18)
+
 ![Trade Window with Net Difference](https://github.com/user-attachments/assets/8cd4c66d-34c1-4a33-a4f6-96a214081b33)
 ![Item Page with Value](https://github.com/user-attachments/assets/98519208-930d-4267-bffb-844706f29f29)
 
